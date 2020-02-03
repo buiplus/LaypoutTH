@@ -1,0 +1,869 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.font{
+    font-family: 'Roboto Slab', serif;
+}
+.font1{
+    font-family: 'Oswald', sans-serif;
+}
+.font2{
+    
+    font-family: 'Dancing Script', cursive;
+}
+a.nav-link {
+    font-size: 14px;
+    color: #777;
+    /* padding: 0 15px; */
+    padding: 0 15px;
+    margin-top: 7px;
+}
+
+a.nav-link:hover{
+   color: black;
+}
+li.active a.nav-link{
+    color: black;
+}
+.datbanmenu a.nav-link.btn.btn-warning, .datban2 {
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    line-height: 40px;
+    margin-top: 0px;
+    color: black;
+    font-size: 13px;
+}
+.datban{
+    border-left: 1px solid #dddddd;
+    float: left;
+    margin-left: 17px;
+    padding-left: 25px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 13px;
+}
+
+.datban.openingTop.float-sm-right {
+    border-right: 1px solid #dddddd;
+    padding-right: 26px;
+}
+.datban.openingTop.float-right {
+    border-right: 1px solid #dddddd;
+    padding-right: 26px;
+}
+.mangxh a:nth-child(1){
+    padding-left: 0;
+}
+.mangxh a {
+    font-size: 16px;
+    color: #dddddd;
+    padding: 0px 13px;
+}
+.topHeader {
+    background: #222222;
+    height: 40px;
+    color: white;
+    line-height: 40px;
+}
+
+/* endTopHeader */
+
+/* --CAROUSEL-- */
+
+.chu{
+    position: absolute;
+    margin-left: 14%;
+    color: white;
+    background: url('../images/icon1.png') no-repeat left top;
+    padding-top: 150px;
+    top: 40px;
+}
+.slide .carousel-item img{
+    height: 400px;
+    width: 100%;
+}
+
+.chu h2{
+    font-size: 50px;
+}
+.chu p{
+    font-size: 14px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    width: 625px;
+}
+a.nutslide.btn.btn-warning{
+    border-radius: 0;
+    width: 165px;
+    height: 50px;
+    color: black;
+    line-height: 50px;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+}
+.slide .carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%; 
+    background: #444444;
+    text-indent: -9999px;
+    border:1px solid transparent;
+}
+.slide .carousel-indicators li.active{
+    background: white;
+}
+
+/* dịch vụ */
+.dichvu h3 a{
+   padding: 25px 0;
+}
+.dichvu p{
+    font-size: 14px;
+}
+.dichvu .khoidichvu a{
+    color: black;
+    display: block;
+  
+}
+.dichvu .khoidichvu a.readmore{
+    color: #333;
+}
+
+/* khối menu */
+.khoimenu{
+    background: url('../images/slide03.jpg');
+    background-size: cover;
+    color: white;
+}
+
+/* tự động căn giữa không dùng đến trên mọi thiết bị */
+.tieudekhoimenu{
+    display: table;
+    margin: auto;
+    height: 550px;
+}
+.tieudekhoimenu .container{
+    display: table-cell;
+    vertical-align: middle;
+}
+span.tieudephu{
+   color: #feb518;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+
+.thucdonct .tieudect{
+    height: 40px;
+    /* background: brown; */
+    line-height: 40px;
+    margin-bottom: 50px;
+    margin-top: -50px;
+    position: relative;
+    left: 0%;
+   
+}
+
+.thucdonct .tieudect a{
+    color: white;
+    margin: 10px;
+    width: 50px;
+    height: 20px;
+    padding:5px 10px;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.thucdonct .tieudect a:hover{
+    background: orange
+    
+    
+}
+.thucdonct .noidungct{
+    height: auto;
+    position: relative;
+}
+.thucdonct .noidungct .noidung{
+    height: 400px;
+    border:1px solid gold;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.motmon{
+    height: 120px;
+}
+.anhmon{
+    position: relative;
+    width: 100%;
+}
+.motmon img{
+    width: 100%;
+    z-index: 2;
+    height: 100%;
+}
+.tagnew{
+    position: absolute;
+    font-size: 11px;
+    background: #feb518;
+    top: 0;
+    padding:2px 7px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.tenmon .tren{
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    color: #333333;
+    border-bottom: 2px dotted #999999;
+}
+.tenmon .tren b.ten{
+    background: white;
+    display: inline-block;
+    transform: translateY(5px);
+    padding-right: 5px;
+}
+.tenmon .tren span{
+    display: inline-block;
+    background: white;
+    transform: translateY(5px);
+    padding-left: 5px;
+}
+.tenmon .duoi{
+    font-size: 13px;
+    font-family: 'Roboto Slab', serif;
+    color: #999999;
+    padding-top: 10px;
+}
+/* //tất cả class bắt đầu là col- thì nhận lại */
+.noidungct .row .row [class*=col-]{
+    padding: 0 10px;
+}
+.noidungct h2{
+    margin-bottom:40px;
+    color: #feb518;
+}
+/* ---------------------------------- */
+.tensanpham .ten, .tensanpham .gia{
+    font-size: 17px;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 10px;
+}
+.tencongthuc{
+    font-size: 13px;
+    color: #dddddd;
+    font-family: 'Roboto Slab', serif;
+}
+.slidemonan ol.carousel-indicators{
+    display: none;
+}
+.slidemonan a.left.carousel-control-prev,.slidemonan a.right.carousel-control-next{
+    position: absolute;
+    top: -50px;
+    z-index: 2;
+    width: 30px;
+    height: 30px;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    background: rgba(0,0,0,0.3);
+}
+.slidemonan a.left.carousel-control-prev:hover,.slidemonan a.right.carousel-control-next:hover{
+    background: #feb518;
+}
+.slidemonan a.left.carousel-control-prev{
+    left: auto;
+    right: 36px;
+}
+.slidemonan h4{
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+    margin-right: 0;
+    padding: 20px 0;
+}
+.slidemonan{
+    margin-top: 10px;
+    background: url('../images/BG2.jpg');
+    background-size: cover;
+    color: white;
+    margin-bottom: 20px;
+    padding-bottom: 70px;
+}
+img.anhslidemonan{
+    width: 100%;
+}
+
+.sanpham{
+    width: 20%;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+/* =====ĐẦU BÊP=== */
+.gioithieudaubep img{
+    padding-top: 107px;
+}
+.daubepthongtin{
+    padding-top: 267px;
+}
+.daubepthongtin h2{
+    font-size: 30px;
+    color: #333;
+}
+.daubepthongtin span{
+    font-size: 31px;
+    color: #feb518;
+    padding-bottom: 25px;
+    display: block;
+}
+.daubepthongtin p{
+    font-size: 14px;
+    color: #999999;
+    font-family: 'Roboto Slab', serif;
+}
+.daubepcontact{
+    perspective: 900;
+}
+.daubepcontact .icondb{
+    background: black;
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    text-align: center;
+    line-height: 36px;
+    color: white;
+    margin-right: 4px;
+    border-radius: 4px;
+    transition: 0.4s;
+    
+}
+.daubepcontact .icondb:hover{
+    background: #feb518;
+    transform: rotateZ(360deg);
+    color: black;
+}
+
+/* ---slogan */
+.slogan{
+    padding: 230px 0;
+    background: #3e3e3e;
+    color: white;
+    margin-top: 20px;
+   
+    padding-left: 285px;
+    text-align: center;
+}
+
+.slogan h3{
+    font-size: 36px;
+    color: #feb518;
+    line-height: 50px;
+}
+.slogan span{
+    font-size: 36px;
+    
+}
+/* ------------end---------- */
+.khoidatban{
+    margin-top: 101px;
+    color: #777;
+
+}
+.thongtindatban{
+    border-bottom: 1px dotted #777;
+    padding-bottom: 60px;
+}
+.thongtindatban h2{
+    color: #333;
+    font-size: 26px;
+    line-height: 50px;
+}
+.thongtindatban .tt{
+    font-size: 15px;
+    padding: 30px 0;
+    
+}
+.hightling{
+    color: #feb518;
+}
+
+.thongtindatban .dtdb{
+    padding-top: 60px;
+}
+
+a.btn.btn-warning.datban2{
+    width: 160px;
+    height: 50px;
+    font-weight: bold;
+    line-height: 50px;
+    margin-top: 40px;
+    text-transform: uppercase;
+    border-radius: 0;
+    font-size: 14px;
+}
+a.btn.btn-warning.datban2:hover{
+    color: white;
+    background: orange;
+}
+.formdatban h2{
+    padding: 60px;
+}
+
+.slidemonan #carouselId .carousel-item .row{
+    margin: 0;
+}
+
+.phanhoinguoidung{
+    background: #787878;
+    margin-top: 92px;
+    padding: 92px 0;
+    color: white;
+}
+
+.phanhoinguoidung .carousel-control-prev, .phanhoinguoidung .carousel-control-next{
+    display: none;
+}
+.phanhoinguoidung ol.carousel-indicators{
+    bottom: -50px;
+}
+.phanhoinguoidung  i.fa.fa-quote-right{
+    font-size: 36px;
+    margin-bottom: 60px;
+}
+.phanhoinguoidung b.tennguoi{
+    font-size: 36px;
+    margin-top: 23px;
+    display: inline-block;
+    color: #feb518;
+}
+
+.quote::before{
+    content: '"';
+}
+
+.quote::after{
+    content: '"';
+}
+
+
+.tintuchome{
+    padding: 120px 0;
+}
+.tintuchome .tdtintuchome span{
+    font-size: 40px;
+    color: #feb518;
+}
+.tintuchome .tdtintuchome h2{
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 55px;
+}
+
+.mottinchuan img{
+    width: 100%;
+}
+.mottinchuan a.tieudetin1{
+    color: black;
+    font-size: 18px;
+    padding: 26px 0 12px 0;
+    display: block;
+}
+.mottinchuan .ngaythang1{
+    font-size: 17px;
+    line-height: 24px;
+    color: #777;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+.mottinchuan p.font{
+    font-size: 14px;
+    line-height: 24px;
+    color: #777;
+}
+
+.mottinchuan .docthem{
+    height: 40px;
+    border-top: 1px dashed gray; 
+    margin-top: 27px;
+    padding-top: 17px;
+    font-size: 13px;
+    color: gray;
+}
+.mottinchuan a.rm{
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.footertop{
+    background: #151515;
+    line-height: 24px;
+    font-size: 14px;
+    color: #888;
+    padding-top:113px;
+    padding-bottom: 100px;
+}
+.cotf1 p{
+    margin-top: 17px;
+}
+
+.diachi{
+    overflow: hidden;
+}
+
+.cotf1 i.fa{
+    padding-right: 20px;
+    float: left;
+    padding-top: 8px; 
+    padding-bottom: 10px;
+    color: white;
+    font-size: 16px;
+}
+
+ h2.tdft{
+    font-size:14px; 
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    margin-bottom: 38px;
+    position: relative;
+}
+ h2.tdft::after{
+    position: absolute;
+    content: "";
+    width: 32px;
+    height: 1px;
+    background: #feb518;
+    display: block;
+    top: 21px;
+}
+
+.cotf2 ul{
+    list-style: none;
+    margin: 0;
+    margin-top: 38px;
+}
+.cotf2 ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 28px;
+    color: #888;
+     font-family: 'Roboto Slab', serif;
+     transition: 0.4s;
+}
+
+.cotf2 ul li a:hover{
+    color: white;
+}
+
+.cotf3 ul{
+    list-style: none;
+    margin: 0;
+    margin-top: 38px;
+}
+
+.cotf3 ul li a:hover{
+    color: white;
+}
+
+.cotf3 ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 28px;
+    color: #888;
+     font-family: 'Roboto Slab', serif;
+}
+
+.opening1{
+    border-bottom: 1px dotted gray;
+    height: 28px;
+    margin-bottom: 13px;
+    margin-top: -8px;
+}
+
+.opening1 .phai{
+    background: #151515;
+    transform: translateY(10px);
+    padding-left: 5px;
+}
+.opening1 .trai{
+    background: #151515;
+    transform: translateY(10px);
+    padding-right: 5px;
+    float: left;
+}
+
+.footerbottom{
+    background: #111;
+    color: white;
+    height: 91px;
+    line-height: 91px;
+    color: #888;
+}
+
+
+/* ------------------------TRANG ABOUT---------------- */
+
+.thongtin2about{
+    padding:100px 0;
+}
+.khoi2dong span.font2{
+    font-size: 30px;
+    color: #feb518;
+    font-weight: bold;
+}
+.khoi2dong h2.font1{
+    color: #333;
+    font-size: 26px;
+    line-height: 36px;
+}
+.khoi2dong p{
+    font-family: 'Roboto Slab', serif;
+    color: #777;
+    line-height: 24px;
+    margin-top: 21px;
+    margin-bottom: 44px;
+    font-size: 13px;
+}
+
+.thongtin2about .khoi2dong img{
+    width: 100%;
+}
+
+ a{
+    color: black;
+}
+
+.gioithieudaubep.daubepabout{
+  
+    background: url('../images/bg_about.jpg');
+    padding: 0;
+    
+}
+.gioithieudaubep.daubepabout .daubepthongtin{
+    padding-top: 220px;
+}
+
+.noidungct.tthucdon .khoi2dong{
+    margin-top: 120px;
+    margin-bottom: 77px;
+}
+.noidungct.tthucdon{
+    padding-bottom: 70px;
+}
+
+
+.tintuchome.news{
+    padding: 10px 0;
+}
+
+.phansearch{
+    position: relative;
+}
+
+button.iconsearch{
+    position: absolute;
+    top: 6px;
+    right: 5px;
+    background: none;
+    border: none;
+    color: #7f7f7f;
+}
+.khoilistlink{
+    border-bottom: 1px solid #f0f0f0;
+}
+.khoilistlink h3{
+    font-size: 18px;
+    color: #333;
+    line-height: 50px;
+}
+.khoilistlink ul li a{
+    color: #777777;
+    line-height: 44px;
+    font-size: 14px;
+}
+.khoilistlink ul{
+    margin-left: 18px;
+    color: #232323;
+   
+}
+nav.phantrang ul{
+    display: inline-block;
+}
+nav.phantrang ul li{
+    display: inline-block;
+}
+
+nav.phantrang ul li.pre a,nav.phantrang ul li.next a{
+    width: 100px;
+}
+nav.phantrang ul li a ,nav.phantrang ul li.current{
+    display: inline-block;
+    color: #333;
+    font-family: 'Roboto Slab', serif;
+    border: 1px solid #eee;
+    font-size: 14px;
+    width: 40px;
+    height: 40px;
+    border-radius: 22px;
+    text-align: center;
+    line-height: 40px;
+    
+}
+
+nav.phantrang ul li.current,nav.phantrang ul li a:hover {
+    background: #feb518;
+    border-color: #feb518;
+    color: white;
+}
+nav.phantrang{
+    text-align: center;
+}
+
+.daubepcontact .khoi2dong{
+    margin-top: 120px;
+}
+.daubepcontact .khoiform input{
+    margin-bottom: 20px;
+}
+.daubepcontact .khoiform a.btn{
+    margin-top: 15px;
+   background: #151515;
+   border: none;
+    text-transform: uppercase;
+    transition: 0.4s;
+    padding: 12px 0;
+}
+.daubepcontact .khoiform a.btn:hover{
+    color: black;
+    background: #feb518;   
+}
+
+.contact .diachi{
+    overflow: hidden;
+}
+.contact .mottinchuan img{
+    margin-bottom: 20px;
+}
+.contact  i.fa{
+    padding-right: 20px;
+    color: #feb518;
+}
+.contact{
+    background: none;
+}
+/* sử dụng responsive cho di động */
+
+@media (max-width:576px){
+   
+    .topHeader {
+        height: auto;
+        /* padding-bottom: 10px; */
+    }
+    .datban{
+        border: none;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+        border-top: 1px dashed gray;
+    }
+    .datban.openingTop.float-sm-right {
+        border-right: none;
+        padding-right: 0px;
+    }
+    .nav a.nav-link{
+        border-bottom: 1px dashed #ddd;
+        display: block;
+        padding:10px;
+        margin: 0;
+    }
+    .nav a.nav-link:hover{
+        background: orange;
+    }
+    .datbanmenu a.nav-link.btn.btn-warning{
+        display: block;
+        margin: auto;
+        padding: auto;
+        margin-top: 10px;
+        width: 100%;
+        padding-top:0px;
+    }
+    .slide .carousel-item img{
+        height: 200px;
+        width: 100%;
+    }
+    .slide .chu h2{
+        font-size: 25px;
+    }
+    .slide .chu p{
+        font-size: 14px;
+        width: 90%;
+        line-height: 15px;
+    }
+    .chu{
+        padding: 0;
+        top: 22px;
+        background: none;
+    }
+    a.nutslide.btn.btn-warning{
+        width: 80px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .dichvu .khoidichvu a{
+        padding: 15px 0;
+      
+    }
+    .khoimenu h3.tieudechinh{
+        font-size: 25px;
+    }
+    .tieudekhoimenu{
+        height: 300px;
+    }
+    span.tieudephu{
+       
+         font-size: 34px;
+     }
+     .sanpham{
+         width: 50%;
+     }
+     .sanpham:last-child{
+         width: 100%;
+     }
+     .gioithieudaubep img{
+        padding-top: 40px;
+    }
+    .daubepthongtin{
+        padding-top: 100px;
+    }
+    .slogan{
+        padding: 156px 0;
+       
+    }
+    .slogan h3{
+        font-size: 30px;
+        
+    }
+    .slogan span{
+        font-size: 30;
+        
+    }
+    .formdatban h2{
+       font-size: 25px;
+    }
+    .footerbottom{
+        height: 50px;
+        line-height: 50px;
+    }
+
+}
+
+/* end */
